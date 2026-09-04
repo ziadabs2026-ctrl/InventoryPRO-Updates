@@ -1,0 +1,7 @@
+{
+  "version": "V37 ONLINE TEST",
+  "notes": "اختبار نظام التحديث الأونلاين فقط — لا توجد تغييرات في المزامنة أو الحسابات.",
+  "mandatory": false,
+  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/V37-ONLINE-TEST/InventoryPRO_V37_ONLINE_UPDATE_TEST.zip",
+  "sha256": "3a7543fd5fce5cf866030b043b27810214844811eb8acd4c348ee4a36992cdfb"
+}
