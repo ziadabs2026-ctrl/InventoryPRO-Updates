@@ -1,16 +1,16 @@
 {
   "product": "InventoryPRO",
-  "version": "64.0.2",
-  "display_version": "V64.0.2",
-  "build": 640002,
+  "version": "64.0.3",
+  "display_version": "V64.0.3",
+  "build": 640003,
   "channel": "stable",
   "mandatory": false,
   "release_notes": [
-    "منع إعادة بناء/تحميل Inventory من الصفر بعد تحديث البرنامج على نفس الجهاز",
-    "الاحتفاظ بقاعدة البيانات المحلية ومؤشر المزامنة السابق",
-    "بعد التحديث يتم فحص التغييرات الجديدة فقط من Google وإكمال المزامنة من آخر نقطة",
-    "تحسين تنزيل تحديثات GitHub Release مع دعم التحويلات وإعادة المحاولة"
+    "إصلاح مقارنة الإصدار لمنع طلب نفس التحديث مرة أخرى",
+    "قراءة الإصدار المثبت فعليًا قبل إظهار التحديث",
+    "الحفاظ على قاعدة البيانات المحلية والمزامنة من آخر نقطة",
+    "تحسين تنزيل تحديثات GitHub Release"
   ],
-  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.2/InventoryPRO_V64.0.2_TEST.zip",
-  "sha256": "6bd6315b85756d45d6dc0f33c5bd4ba0abfee34e8e83b29b8f3c232371e4d55a"
+  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.3/InventoryPRO_V64.0.3.zip",
+  "sha256": "0b0482b916eb836c08f620c63bacb12569ebec5611061233ce512973a5e12531"
 }
