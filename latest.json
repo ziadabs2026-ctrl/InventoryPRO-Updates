@@ -1,12 +1,17 @@
 {
-  "version": "64.0.6",
-  "display_version": "V64.0.6",
+  "product": "InventoryPRO",
+  "version": "64.0.7",
+  "display_version": "V64.0.7",
+  "build": 640007,
+  "channel": "stable",
   "mandatory": false,
-  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.6/InventoryPRO_V64.0.6.zip",
-  "sha256": "3b9a624aea10df9acfc3bb30ec4464447c8f7661c8bcf2c9d5b5ab4dad0d4872",
+  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.7/InventoryPRO_V64.0.7.zip",
+  "sha256": "75b1a4c5bac388e300f94ee09e7d948908c555a8c5e50007d01a57ebbd0ed8ff",
   "release_notes": [
-    "إصلاح سبب فشل التثبيت الناتج عن المجلد الداخلي داخل ملف ZIP.",
-    "التحقق من تثبيت V64.0.6 في نفس مسار البرنامج قبل إعادة التشغيل.",
-    "الحفاظ على بيانات الشركة والمخزون وملفات المزامنة أثناء التحديث."
+    "إصلاح نهائي لبنية ZIP ومنع إنشاء مجلد تثبيت متداخل",
+    "استبدال ملفات البرنامج في نفس مجلد النسخة الحالية",
+    "التحقق من الإصدار المثبت فعليًا قبل إعادة التشغيل",
+    "منع تكرار طلب نفس الإصدار بعد التحديث",
+    "الحفاظ على بيانات الشركة والمخزون والمزامنة"
   ]
 }
