@@ -1,7 +1,7 @@
 {
   "product": "InventoryPRO",
-  "version": "64.0.3",
-  "display_version": "V64.0.3",
+  "version": "64.0.5",
+  "display_version": "V64.0.5",
   "build": 640003,
   "channel": "stable",
   "mandatory": false,
