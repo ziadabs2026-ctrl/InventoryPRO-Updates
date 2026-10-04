@@ -1,17 +1,18 @@
 {
   "product": "InventoryPRO",
-  "version": "64.0.7",
-  "display_version": "V64.0.7",
-  "build": 640007,
+  "version": "64.0.11",
+  "display_version": "V64.0.11",
+  "build": 640011,
   "channel": "stable",
   "mandatory": false,
-  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.7/InventoryPRO_V64.0.7.zip",
-  "sha256": "75b1a4c5bac388e300f94ee09e7d948908c555a8c5e50007d01a57ebbd0ed8ff",
+  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.11/InventoryPRO_V64.0.11_FULL_REVIEW_FIXED.zip",
+  "sha256": "d56ea6c17bc43ee27a26eb20e288cf051f4128c560c094c6db972d195a0d4295",
   "release_notes": [
-    "إصلاح نهائي لبنية ZIP ومنع إنشاء مجلد تثبيت متداخل",
-    "استبدال ملفات البرنامج في نفس مجلد النسخة الحالية",
-    "التحقق من الإصدار المثبت فعليًا قبل إعادة التشغيل",
-    "منع تكرار طلب نفس الإصدار بعد التحديث",
-    "الحفاظ على بيانات الشركة والمخزون والمزامنة"
+    "مراجعة شاملة للمبيعات والمشتريات والمرتجعات والخزنة والجرد والعهدة",
+    "منع تعارض أرقام العمليات بين الأجهزة أثناء العمل والمزامنة",
+    "تحسين التعامل مع sync_busy وإعادة المحاولة والطلبات المعلقة",
+    "الحفاظ على op_id لمنع تكرار العمليات أثناء المزامنة",
+    "إبقاء نظام التحديث الأونلاين وفحص latest.json",
+    "الحفاظ على بيانات الشركة وقاعدة البيانات أثناء التحديث"
   ]
 }
