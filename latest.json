@@ -1,18 +1,8 @@
 {
+  "version": "64.0.12",
+  "display_version": "V64.0.12",
   "product": "InventoryPRO",
-  "version": "64.0.11",
-  "display_version": "V64.0.11",
-  "build": 640011,
-  "channel": "stable",
-  "mandatory": false,
-  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.11/InventoryPRO_V64.0.11_FULL_REVIEW_FIXED.zip",
-  "sha256": "d56ea6c17bc43ee27a26eb20e288cf051f4128c560c094c6db972d195a0d4295",
-  "release_notes": [
-    "مراجعة شاملة للمبيعات والمشتريات والمرتجعات والخزنة والجرد والعهدة",
-    "منع تعارض أرقام العمليات بين الأجهزة أثناء العمل والمزامنة",
-    "تحسين التعامل مع sync_busy وإعادة المحاولة والطلبات المعلقة",
-    "الحفاظ على op_id لمنع تكرار العمليات أثناء المزامنة",
-    "إبقاء نظام التحديث الأونلاين وفحص latest.json",
-    "الحفاظ على بيانات الشركة وقاعدة البيانات أثناء التحديث"
-  ]
+  "download_url": "https://raw.githubusercontent.com/ziadabs2026-ctrl/InventoryPRO-Updates/main/InventoryPRO_V64.0.12_COMPANY_RELEASE.zip",
+  "sha256": "165eaac2ac86d50a953fe2b9c46e6cee47bb7ae1821fb03166c5e578404359f4",
+  "release_notes": "إصدار الشركة V64.0.12؛ إعدادات Google Sheets للشركة وتحديث تلقائي مع تحقق SHA-256."
 }
