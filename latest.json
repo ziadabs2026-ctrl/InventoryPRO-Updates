@@ -1,8 +1,8 @@
 {
-  "version": "64.0.13",
-  "display_version": "V64.0.13",
+  "version": "64.0.14",
+  "display_version": "V64.0.14",
   "product": "InventoryPRO",
-  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.13/InventoryPRO_V64.0.13_FULL_REVIEW_FIXED.zip",
-  "sha256": "b6485a1eaeaef1902392b01280c9f059eecd75a3aabfaa0abb30c7471a29a1a2",
-  "release_notes": "إصدار InventoryPRO V64.0.13؛ تحسين المزامنة وإصلاحات النظام والتحديث التلقائي."
+  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.14/InventoryPRO_V64.0.14_COMPANY_RELEASE.zip",
+  "sha256": "d92a36434892d22791069998b1db1c2ecd13b8c8e3305944dd186acdd243a3af",
+  "release_notes": "إصلاح التحديث التلقائي وانتظار إغلاق النسخة القديمة وإعادة تشغيل البرنامج، مع الحفاظ على بيانات الشركة وإعدادات Google Sheets."
 }
