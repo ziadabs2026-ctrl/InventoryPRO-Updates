@@ -4,11 +4,10 @@
   "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.23/InventoryPRO_V64.0.23_PUBLIC_UPDATE.zip",
   "sha256": "2108b841c92268169c8ff87b7c55ba03c54f0a6f67cbf36d505c07f4788c2941",
   "release_notes": [
-    "إصلاح جميع مسارات إرسال Queue بحيث تستخدم الحمولة الأصلية المحفوظة للعملية.",
-    "لا يتم تعليم العملية مكتملة إلا بقبول/duplicate لنفس op_id أو تحقق Google من وجوده.",
-    "العمليات المرفوضة أو الغامضة والعمليات القديمة بلا حمولة أصلية محفوظة تبقى محفوظة ولا تُحذف.",
-    "إعادة المحاولة لا تتم عشوائيًا؛ تُستخدم حالة FOUND/ABSENT/UNKNOWN ونفس op_id والحمولة.",
-    "الحزمة العامة لا تحتوي إعدادات الشركة أو كود Apps Script أو مفاتيح الربط الخاصة."
+    "Fix all Google queue delivery paths to use the original persisted sync_payload.",
+    "Only mark an operation complete after an explicit acknowledgement or exact op_id verification.",
+    "Keep rejected, ambiguous, and legacy operations without a saved payload for review; do not delete or guess a replacement payload.",
+    "Prevent blind retries when Google acknowledgement is unknown."
   ],
   "mandatory": false
 }
