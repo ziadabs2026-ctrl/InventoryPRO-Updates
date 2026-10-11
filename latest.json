@@ -2,7 +2,7 @@
   "version": "64.0.23",
   "display_version": "V64.0.23",
   "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.23/InventoryPRO_V64.0.23_PUBLIC_UPDATE.zip",
-  "sha256": "6aa03f7249a64b322e03914628529de0e2de5b532f7f47472db9ddcd9b501977",
+"sha256": "6aa03f7249a64b322e03914628529de0e2de5b532f7f47472db9ddcd9b501977"
   "release_notes": [
     "Fix all Google queue delivery paths to use the original persisted sync_payload.",
     "Only mark an operation complete after an explicit acknowledgement or exact op_id verification.",
