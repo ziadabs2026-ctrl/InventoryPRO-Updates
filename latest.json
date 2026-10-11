@@ -1,1 +1,13 @@
-
+{
+  "version": "64.0.23",
+  "display_version": "V64.0.23",
+  "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.23/InventoryPRO_V64.0.23_PUBLIC_UPDATE.zip",
+  "sha256": "80c8d2bd87852b09763265ecad26237d9c0c0d4d6e6e52c83ff9f301d641e20b",
+  "release_notes": [
+    "Update all public application modules while preserving existing company databases, offline queue, and connection settings.",
+    "Migrate the known legacy Google protocol pin only after authenticated server identity confirms the exact configured spreadsheet and service release.",
+    "Persist sync_payload for new queued operations; accept completion only for explicit acknowledgement or exact op_id verification.",
+    "Quarantine legacy/ambiguous operations without deleting them or blindly replaying invoices and stock movements."
+  ],
+  "mandatory": false
+}
