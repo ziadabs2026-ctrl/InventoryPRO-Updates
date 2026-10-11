@@ -2,7 +2,7 @@
   "version": "64.0.23",
   "display_version": "V64.0.23",
   "download_url": "https://github.com/ziadabs2026-ctrl/InventoryPRO-Updates/releases/download/v64.0.23/InventoryPRO_V64.0.23_PUBLIC_UPDATE.zip",
-  "sha256": "80c8d2bd87852b09763265ecad26237d9c0c0d4d6e6e52c83ff9f301d641e20b",
+  "sha256": "b4830db4083be98b691c028e59b86cf1b1a04a4e4a7923ba7a6c52c7d6662a82",
   "release_notes": [
     "Update all public application modules while preserving existing company databases, offline queue, and connection settings.",
     "Migrate the known legacy Google protocol pin only after authenticated server identity confirms the exact configured spreadsheet and service release.",
